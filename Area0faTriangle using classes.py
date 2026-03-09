@@ -7,9 +7,9 @@ class area:
         return (self.a*self.b)
 
 
-a = int(input("enter width: "))
-b = int(input("enter length: "))
+width = int(input("enter width: "))
+length = int(input("enter length: "))
 
-c = area(a,b)
-
-print(f"The area of the rectangle is: {c.area()}")
+my_shape = area(width,length)
+result = my_shape.a * my_shape.b
+print(f"The area of the rectangle is: {result}")
